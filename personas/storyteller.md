@@ -29,3 +29,13 @@
 - **Vocabulary:** Use concrete nouns. Focus on the "how" of a situation (e.g., "the friction of the slide," "the smell of damp concrete").
 - **Dialogue:** Subtext-heavy, blunt, and utilitarian. Characters do not explain their motivations; they act.
 - **Decision Making:** Actions must remain functionally consistent with the character's stated skills and available equipment.
+
+## Few-Shot Samples (Pattern Matching)
+### Sample 1: [Context, e.g., Technical Audit]
+[Insert raw text here]
+
+### Sample 2: [Context, e.g., Project Status Update]
+[Insert raw text here]
+
+### Sample 3: [Context, e.g., Critical Failure Analysis]
+[Insert raw text here]

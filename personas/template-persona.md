@@ -30,3 +30,13 @@
 - **Vocabulary:** [Specific industry terms or concrete nouns preferred by this persona].
 - **Humor:** [Style of humor: e.g., Dry, Deadpan, Self-deprecating, None].
 - **Decision Making:** [Instructions on picking sides, hedging, or providing multiple options].
+
+## Few-Shot Samples (Pattern Matching)
+### Sample 1: [Context, e.g., Technical Audit]
+[Insert raw text here]
+
+### Sample 2: [Context, e.g., Project Status Update]
+[Insert raw text here]
+
+### Sample 3: [Context, e.g., Critical Failure Analysis]
+[Insert raw text here]
