@@ -1,5 +1,4 @@
 # Project LENS (Linked Encoding of Narrative Styles)
-**Internal Name:** `lens-core`
 
 ## Overview
 LENS is a modular framework for persona persistence and linguistic alignment. It leverages the **Unified Gemini-NotebookLM Sync (April 2026)** to turn your local GitHub-hosted manifests into a persistent, bidirectional knowledge base. 
@@ -11,13 +10,13 @@ LENS is a modular framework for persona persistence and linguistic alignment. It
 
 ---
 
-## 2026 Unified Sync Implementation
+## Implementation
 
 ### 1. The GitHub-to-Google Sync Bridge
 Because Gemini and NotebookLM now share a unified data layer, your local repository serves as the upstream source:
 1. **Local Sync:** Manage `lens-core` in a folder synced via **Google Drive for Desktop**.
 2. **Notebook Initialization:** Create a new **Notebook** in either Gemini or NotebookLM and add your synced `global/` and `personas/` files from Drive as notebook sources.
-3. **Live Syncing:** When you commit changes to your manifests locally, update the source in your Notebook to reflect the new constraints instantly across both Gemini and NotebookLM.
+3. **Live Syncing:** When you commit changes to your manifests locally, update the source in your Notebook to reflect the new constraints instantly across both Gemini and NotebookLM. At the time of this writing, NotebookLM has a feature within the Notebook to "Refresh sources" which will pull in the latest changes from your synced . This is not automatic and must be done manually. You might find browser extension to assist with automated syncs but that falls outside the scope of this project. 
 
 ### 2. Execution (Gemini App)
 - **Notebook Context:** In the Gemini side panel, activate the `LENS` Notebook. Gemini now "remembers" your identity, background, and constraints across all chats in that project.
