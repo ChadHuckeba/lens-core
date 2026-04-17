@@ -1,7 +1,7 @@
 # Project LENS (Linked Encoding of Narrative Styles)
 
 ## Overview
-LENS is a modular framework for persona persistence and linguistic alignment. It leverages the **Unified Gemini-NotebookLM Sync (April 2026)** to turn your local GitHub-hosted manifests into a persistent, bidirectional knowledge base. 
+LENS is a modular framework for persona persistence and linguistic alignment. It leverages the **Unified Gemini-NotebookLM Sync (April 2026)** to transform local markdown manifests into a persistent, bidirectional knowledge base. By separating universal constraints from context-specific identities, LENS ensures stylistic consistency across technical documentation, narrative world-building, and professional communications.
 
 ## Repository Architecture
 - **`global/`**: Universal negative constraints (Slop filters, rhythm rules).
